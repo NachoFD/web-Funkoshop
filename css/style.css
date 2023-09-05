@@ -4,40 +4,6 @@
 }
 
 body {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     padding: 90px 20px 0px;
-}
-
-.header {
-    background-color: #30343F;
-    height: 100px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.nav-link{
-    color: white;
-    text-decoration: none;
-}
-
-.nav-menu-link{
-    padding: 10px;
-}
-
-.iconoCarrito{
-    height: 20px;
-}
-
-.logo{
-    height: 60px;
 }

@@ -1,0 +1,133 @@
+/* BARRA DE NAVEGACION */
+.header-nav-home {
+    background-color: #30343F;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu-link{
+    padding: 10px;
+}
+
+.iconoCarrito{
+    height: 18px;
+}
+
+.logo{
+    height: 50px;
+}
+
+/* CUERPO DEL HOME */
+body{
+    margin: 0;
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-body-home{
+    background-image: url(../img/funkos-banner.webp);
+    height: 250px;
+    background-size: cover;
+    background-position: bottom;
+    /* filter: brightness(70%); */
+    color: white;
+    padding-left: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.contenedor-header-home{
+    display: block;
+}
+
+.contenedor-header-home h1{
+    margin-bottom: 0;
+}
+
+.contenedor-header-home h5{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contenedor-header-home button{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+.main-body-home{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.imagen-funko{
+    height: 500px;
+}
+
+.funko{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-funko{
+    text-align: left;
+    justify-content: left;
+}
+
+.contenedor-funko h1{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.contenedor-funko h5{
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+.contenedor-funko hr{
+    margin-top: -15px;
+    margin-bottom: 30px;
+    border-color: red;
+}
+
+.contenedor-funko button{
+    padding: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: none;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.footer-body-home{
+    width: 1200px;
+}
