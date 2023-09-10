@@ -1,0 +1,186 @@
+.body-carrito{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-compras{
+    font-weight: bold;
+
+    margin: 50px;
+    margin-top: 150px;
+    width: fit-content;
+}
+
+.titulo-compras hr{
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: -14px;
+}
+
+.subtitulo-compras{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+
+    background-color: rgba(235, 235, 235, 0.627);
+    border: 1px solid rgba(163, 163, 163, 0.432);
+    border-radius: 10px;
+}
+
+/* FUNKOS */
+
+.funko-compra{
+    display: flex;
+    align-items: center;
+    background-color: rgba(235, 235, 235, 0.627);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid rgba(163, 163, 163, 0.432);
+}
+
+.funko-compra img{
+    height: 150px;
+    margin-right: 10px;
+}
+
+/* DATOS */
+.contenedor-detalle h5{
+    margin-top: -10px;
+}
+
+/* CANTIDAD */
+.contenedor-cantidad{
+    margin-left: auto;
+
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+
+    gap: 5px;
+}
+
+#btn-agregar{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#btn-eliminar{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.contenedor-cantidad input{
+    width: 80px;
+    height: 50px;
+
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid rgba(163, 163, 163, 0.432);
+}
+
+.contenedor-cantidad button{
+    padding-left: 6px;
+    padding-right: 6px;
+
+    background-color: #F24E1E;
+    color: white;
+    border: none;
+}
+
+/* PRECIO */
+.contenedor-precio{
+    margin-left: auto;
+}
+
+/* ELIMINAR */
+.btn-eliminar{
+    margin-left: auto;
+    border: none;
+}
+
+.btn-eliminar img{
+    height: 50px;
+}
+
+/* RESUMEN */
+
+.titulo-resumen{
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.titulo-resumen h1{
+    margin-bottom: 0px;
+}
+
+.titulo-resumen hr{
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.contenedor-datos{
+    background-color: rgba(235, 235, 235, 0.627);
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    border-radius: 20px;
+    border: 1px solid rgba(163, 163, 163, 0.432);
+    margin-top: 20px;
+}
+
+.dato{
+    display: flex;
+    align-items: center;
+}
+
+.dato h4{
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.dato p{
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.dato h5{
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contenedor-datos hr{
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.dato h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.contenedor-resumen{
+    text-align: right;
+}
+
+.btn-pagar{
+    height: 70px;
+    font-size: 27px;
+    width: 540px;
+    margin-top: 40px;
+    background-color: #FF3333;
+    color: white;
+}

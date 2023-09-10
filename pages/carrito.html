@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/carritoStyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-nav">
+        <nav class="nav">
+            
+            <a href="home.html">
+                <img class="logo" src="../img/branding/logo_light_horizontal.svg" alt="funkoshop">
+            </a>
+    
+            <div style="margin-left: auto;">
+                <a href="./shop.html" class="nav-menu-link nav-link">SHOP</a>
+                <a href="#" class="nav-menu-link nav-link">CONTACTO</a>
+                <a href="#" class="nav-menu-link nav-link">LOGIN</a>
+
+                <a href="./carrito.html" class="nav-menu-link nav-link">
+                    <img class="iconoCarrito" src="../img/icons/cart-icon.svg" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <div class="body-carrito">
+            <header class="titulo-compras">
+                <h1>CARRITO DE COMPRAS</h1>
+                <hr>
+            </header>
+    
+            <main>
+                <header class="subtitulo-compras">
+                    <h3>DETALLE DE PRODUCTO</h3>
+                    <h3>CANTIDAD</h3>
+                    <h3>TOTAL</h3>
+                </header>
+    
+                <main>
+                    <div class="funko-compra">
+                        <img src="../img/star-wars/baby-yoda-1.webp" alt="babyyoda">
+
+                        <section class="contenedor-detalle">
+                            <h2>BABY YODA BLUEBALL</h2>
+                            <h5>STAR WARS</h5>
+                            <p>Precio: $ 1799,99</p>
+                        </section>
+
+                        <section class="contenedor-cantidad">
+                            <input type="number" name="cantidad" id="cantidad-1">
+                            <button id="btn-agregar">+</button>
+                            <button id="btn-eliminar">-</button>
+                        </section>
+
+                        <section class="contenedor-precio">
+                            <h3>$ 1799,99</h3>
+                        </section>
+
+                        <button class="btn-eliminar">
+                            <img src="../img/icons/delete_trash.svg" alt="borrar">
+                        </button>
+                    </div>
+                    
+                    <div class="funko-compra">
+                        <img src="../img/pokemon/pidgeotto-1.webp" alt="babyyoda">
+
+                        <section class="contenedor-detalle">
+                            <h2>PIDGEOTTO</h2>
+                            <h5>POKEMON</h5>
+                            <p>Precio unitario: $ 1799,99</p>
+                        </section>
+
+                        <section class="contenedor-cantidad">
+                            <input type="number" name="cantidad" id="cantidad-1">
+                            <button id="btn-agregar">+</button>
+                            <button id="btn-eliminar">-</button>
+                        </section>
+
+                        <section class="contenedor-precio">
+                            <h3>$ 1799,99</h3>
+                        </section>
+
+                        <button class="btn-eliminar">
+                            <img src="../img/icons/delete_trash.svg" alt="borrar">
+                        </button>
+                    </div>
+
+
+                </main>
+            </main>
+    
+            <footer class="contenedor-resumen">
+                <header class="titulo-resumen">
+                    <h1>RESUMEN</h1>
+                    <hr>
+                </header>
+    
+                <main class="contenedor-datos">
+                    <section class="dato">
+                        <h4>CANTIDAD DE ELEMENTOS</h4>
+                        <p>3</p>
+                    </section>
+
+                    <section class="dato">
+                        <h4>SUBTOTAL</h4>
+                        <p>$5.399,97</p>
+                    </section>
+
+                    <section class="dato">
+                        <h4>ENVIO</h4>
+                        <p>$0,00</p>
+                    </section>
+    
+                    <hr>
+
+                    <section class="dato">
+                        <h3>TOTAL</h3>
+                        <h5>$5.399,97</h5>
+                    </section>
+                </main>
+                
+                <button class="btn-pagar">IR A PAGAR</button>
+            </footer>
+        </div>
+    </body>
+
+    <footer class="footer">
+        <div class="contenedor-footer">
+            
+            <div class="contenedor-opciones-footer">
+                <a href="./shop.html" class="footer-link">SHOP</a>
+                <a href="./login.html" class="footer-link">INGRESAR</a>
+                <a href="./contacto.html" class="footer-link">CONTACTO</a>
+            </div>
+
+            <img src="../img/branding/isotype.svg" alt="logo">
+        </div>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p> 
+    </footer>
+</body>
+</html> 

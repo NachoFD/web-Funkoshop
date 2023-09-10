@@ -1,9 +1,81 @@
-*{
+body{
     margin: 0;
-    box-sizing: border-box;
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
 }
 
-body {
-    /* font-family: sans-serif; */
-    padding: 90px 20px 0px;
+/* BARRA DE NAVEGACION */
+.header-nav {
+    background-color: #30343F;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu-link{
+    padding: 10px;
+}
+
+.iconoCarrito{
+    height: 18px;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+/* FOOTER DE LA PAGINA */
+.footer{
+    background-color: #30343F;
+    height: 300px;
+    width: 100%;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.contenedor-footer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.contenedor-footer img{
+    height: 100px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.footer p{
+    color: white;
+    position: relative;
+    top: -60px;
+}
+
+.contenedor-opciones-footer{
+    display: grid;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
 }
