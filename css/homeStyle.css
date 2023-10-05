@@ -7,7 +7,7 @@ body{
 
 .header-body-home{
     background-image: url(../img/funkos-banner.webp);
-    height: 450px;
+    height: 340px;
     background-size: cover;
     background-position: bottom;
     /* filter: brightness(70%); */
