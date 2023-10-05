@@ -1,0 +1,21 @@
+.contenedor_boton_home{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnHome{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btnHome:hover{
+    transform: scale(1.1);
+}
