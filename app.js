@@ -5,7 +5,7 @@ const PORT = 3000;
 const mainRoutes = require('./src/routes/mainRoutes')
 
 // Define las rutas y manejo de peticiones aquí
-app.use(express.static('public'))
+app.use(express.static('docs'))
 app.use('/', mainRoutes)
 
 
