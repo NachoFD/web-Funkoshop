@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/carritoStyle.css">
+    <link rel="stylesheet" href="../css/homeStyle.css">
+    <link rel="stylesheet" href="../css/itemStyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body style="display: flex; justify-content: center; width: 100vw;">
+    <nav class="header-nav">
+        <nav class="nav">
+            
+            <a href="home.html">
+                <img class="logo" src="../img/branding/logo_light_horizontal.svg" alt="funkoshop">
+            </a>
+    
+            <div style="margin-left: auto;">
+                <a href="./shop.html" class="nav-menu-link nav-link">SHOP</a>
+                <a href="#" class="nav-menu-link nav-link">CONTACTO</a>
+                <a href="#" class="nav-menu-link nav-link">LOGIN</a>
+
+                <a href="./carrito.html" class="nav-menu-link nav-link">
+                    <img class="iconoCarrito" src="../img/icons/cart-icon.svg" alt="">
+                </a>
+            </div>
+        </nav>
+    </nav>
+
+    <body class="display-item">
+        <section class="contenedor-item">
+            <div class="contenedor-item-imagen">
+                <img src="../img/star-wars/baby-yoda-1.webp" alt="">
+            </div>
+            <div class="contenedor-item-texto">
+                <h5>STAR WARS</h5>
+                <h1>BABY YODA BLUEBALL</h1>
+                <h3>Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, Edicion Limitada</h3>
+                <h2>$ 1799,99 </h2>
+
+                <div class="contenedor-item-contador">
+                    <input type="number" placeholder="0" id="contador-item" value="0">
+                    <div class="contenedor-item-cantidad">
+                        <button id="aumentar">+</button>
+                        <button id="reducir">-</button>
+                    </div>
+                    <button>Agregar a Carrito</button>
+                </div>
+
+                <h6><span>Ver metodos de pago</span> - 3 CUOTAS SIN INTERES</h6>
+            </div> 
+        </section>
+        
+        
+        <h1 style="margin-left: 150px;">PRODUCTOS RELACIONADOS</h1>
+        <section>
+            <div class="contenedor-footer-body">
+
+                <button><strong><</strong></button>
+
+                <div class="funko-nuevo">
+                    <p class="nuevo">NUEVO</p>
+                    <img src="../img/star-wars/trooper-1.webp" alt="trooper">
+                    <h3>STAR WARS</h3>
+                    <h2>STORMTROOPER LIGHTSABER</h2>
+                    <h3>$ 1799,99</h3>
+                    <h4>3 CUOTAS SIN INTERES</h4>
+                </div>
+                
+                <div class="funko-nuevo">
+                    <p class="nuevo">NUEVO</p>
+                    <img src="../img/pokemon/pidgeotto-1.webp" alt="pidgeotto">
+                    <h3>POKEMON</h3>
+                    <h2>PIDGEOTTO</h2>
+                    <h3>$ 1799,99</h3>
+                    <h4>3 CUOTAS SIN INTERES</h4>
+                </div>
+
+                <div class="funko-nuevo">
+                    <p class="nuevo">NUEVO</p>
+                    <img src="../img/harry-potter/luna-1.webp" alt="luna">
+                    <h3>HARRY POTTER</h3>
+                    <h2>LUNA LOVEGOOD LION MASK</h2>
+                    <h3>$ 1799,99</h3>
+                    <h4>3 CUOTAS SIN INTERES</h4>
+                </div>
+
+                <button><strong>></strong></button>
+
+            </div>
+        </section>
+
+        <script src="../scripts/item.js"></script>
+    </body>
+
+    <footer class="footer" style="width: 100%;">
+        <div class="contenedor-footer">
+            
+            <div class="contenedor-opciones-footer">
+                <a href="./shop.html" class="footer-link">SHOP</a>
+                <a href="./login.html" class="footer-link">INGRESAR</a>
+                <a href="./contacto.html" class="footer-link">CONTACTO</a>
+            </div>
+
+            <img src="../img/branding/isotype.svg" alt="logo">
+        </div>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p> 
+    </footer>
+</body>
+</html>  
