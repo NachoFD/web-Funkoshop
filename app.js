@@ -11,8 +11,8 @@ const mainRoutes = require('./src/routes/mainRoutes.js')
 app.use(express.static('public'))
 // app.use('/', mainRoutes)
 
-app.get('/', (req, res) => res.sendFile(__dirname + '/public/index.html'))
-app.get('/home', (req, res) => res.sendFile(__dirname + '/public/pages/home.html'))
+app.get('/', (req, res) => {res.sendFile(__dirname + '/public/index.html')})
+app.get('/home', (req, res) => {res.sendFile(__dirname + '/public/pages/home.html')})
 
 // Inicia el servidor
 app.listen(PORT, () => {
