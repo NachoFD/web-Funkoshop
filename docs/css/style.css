@@ -28,6 +28,12 @@ body {
     padding-right: 30px;
 }
 
+.nav-menu {
+    display:flex ;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-link{
     color: white;
     text-decoration: none;
