@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funkoshop | Admin</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/homeStyle.css">
+    <link rel="stylesheet" href="../css/adminStyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<header class="header-nav">
+    <nav class="nav container">
+            
+        <a href="home.html">
+            <img class="logo" src="../img/branding/logo_light_horizontal.svg" alt="funkoshop">
+        </a>
+
+        <div class="nav-menu" style="margin-left: auto;">
+            <a href="./shop.html" class="nav-menu-link nav-link">VER TIENDA</a>
+            <a href="./admin.html" class="nav-menu-link nav-link">ADMIN</a>
+            <a href="#" class="nav-menu-link nav-link">SALIR</a>
+        </div>
+    </nav>
+</header>
+<body">
+    <main class="main-admin container">
+        <div class="item-search">
+            <input type="image" id="btn-lupa" src="../img/icons/search_icon.svg" height="100%" width="40px"/>
+            <input class="text" type="text" placeholder="código, nombre o categoría">
+        </div>
+        <div class="encabezado">
+            <h1>LISTADO DE PRODUCTOS</h1>
+            <div class="add-item">
+                <h3>Agregar</h3>
+                <a href="./create_admin.html" class="nav-menu-link nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+                        <path d="M36.8333 28.4516H28.1667V37.1182H23.8333V28.4516H15.1667V24.1182H23.8333V15.4516H28.1667V24.1182H36.8333M41.1667 6.78491H10.8333C8.42833 6.78491 6.5 8.71325 6.5 11.1182V41.4516C6.5 42.6009 6.95655 43.7031 7.7692 44.5157C8.58186 45.3284 9.68406 45.7849 10.8333 45.7849H41.1667C42.3159 45.7849 43.4181 45.3284 44.2308 44.5157C45.0435 43.7031 45.5 42.6009 45.5 41.4516V11.1182C45.5 9.96897 45.0435 8.86677 44.2308 8.05412C43.4181 7.24146 42.3159 6.78491 41.1667 6.78491Z" fill="#FF3333"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+        <div class="item-list">
+            <table>
+                <thead class="item-list_encabezado">
+                    <tr>
+                        <th>ID</th>
+                        <th>Código</th>
+                        <th>Nombre del producto</th>
+                        <th>Categoría</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="item-list_id">1</td>
+                        <td>STW001001</td>
+                        <td>Baby Yoda Blueball</td>
+                        <td>STAR WARS</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-tachoBasura" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">2</td>
+                        <td>STW001002</td>
+                        <td>Boba Fett Fighter</td>
+                        <td>STAR WARS</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">3</td>
+                        <td>STW001003</td>
+                        <td>Luke Skylwalker & Grogu</td>
+                        <td>STAR WARS</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">4</td>
+                        <td>STW001004</td>
+                        <td>Stormtrooper Lightsaber</td>
+                        <td>STAR WARS</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">5</td>
+                        <td>PKM001001</td>
+                        <td>Charmander Smiley</td>
+                        <td>POKEMON</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">6</td>
+                        <td>PKM001002</td>
+                        <td>Dragonite Hi!</td>
+                        <td>POKEMON</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">7</td>
+                        <td>PKM001003</td>
+                        <td>Pidgeotto Flying</td>
+                        <td>POKEMON</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">8</td>
+                        <td>PKM001004</td>
+                        <td>Pikachu Smiley</td>
+                        <td>POKEMON</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">9</td>
+                        <td>PKM001005</td>
+                        <td>Vulpix Fancy</td>
+                        <td>POKEMON</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">10</td>
+                        <td>HPT001001</td>
+                        <td>Harry Potter & Hegwid</td>
+                        <td>HARRY POTTER</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">11</td>
+                        <td>HPT001002</td>
+                        <td>Herminione Ball Dress</td>
+                        <td>HARRY POTTER</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">12</td>
+                        <td>HPT001003</td>
+                        <td>Luna Lovegood Lion Mask</td>
+                        <td>HARRY POTTER</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-list_id">13</td>
+                        <td>HPT001004</td>
+                        <td>Snape Patronus</td>
+                        <td>HARRY POTTER</td>
+                        <td class="btn-lapiz">
+                            <input type="image" id="btn-lapiz" src="../img/icons/edit_pencil.svg" height="32px" width="33px"/>
+                        </td>
+                        <td class="btn-tachoBasura">
+                            <input type="image" id="btn-lapiz" src="../img/icons/delete_trash.svg" height="32px" width="33px"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+</body>
+<footer class="footer">
+    <div class="contenedor-footer container">
+        
+        <div class="contenedor-opciones-footer">
+            <a href="./shop.html" class="footer-link">SHOP</a>
+            <a href="./login.html" class="footer-link">INGRESAR</a>
+            <a href="./contacto.html" class="footer-link">CONTACTO</a>
+        </div>
+
+        <img src="../img/branding/isotype.svg" alt="logo">
+    </div>
+    <p>All rights reserved 2023 - Funkoshop &copy;</p> 
+</footer>
+
+</html>
