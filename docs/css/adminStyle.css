@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+.main-admin {
+    margin-top: 150px;
+}
+
+.item-search {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    gap: 10px;
+    text-align: start;
+}
+
+.text {
+    width: 450px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid #30343F;
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.add-item {
+    display: inline-flex;
+    gap: 20px;
+    text-transform: uppercase;
+    align-items: center;    
+}
+
+.add-item h3 {
+    font-weight: 1000;
+}
+
+/*LISTADO DE PRODUCTOS*/
+
+.item-list {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.96px;
+    
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px 30px;
+    text-align: start;
+}
+
+th {
+    font-weight: 700;
+}
+
+.item-list_id {
+    text-align: center;
+}
+
+td {
+    font-weight: 500;
+}
+
+.btn-lapiz {
+    padding-left: 50px;
+    text-align: end;
+    padding-right: 7px; 
+}
+

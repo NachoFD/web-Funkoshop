@@ -94,7 +94,7 @@
 }
 
 /* FOOTER FUNKOS */
-.footer-contendor-funkos{
+.footer-contenedor-funkos{
     text-align: center;
 
     grid-column: 2;
@@ -102,7 +102,7 @@
     margin-top: 40px;
 }
 
-.footer-contendor-funkos button{
+.footer-contenedor-funkos button{
     padding: 9px;
     padding-left: 12px;
     padding-right: 12px;

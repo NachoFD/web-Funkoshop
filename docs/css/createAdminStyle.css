@@ -1,0 +1,96 @@
+
+h1 {
+    margin-top: 10px;
+    letter-spacing: 1.68px;
+}
+
+form {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    gap: 40px;
+    letter-spacing: 0.96px;
+}
+
+input {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.new-item_filtros {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+    font-weight: 300;
+}
+
+.new-item_filtros input {
+    width: 200px;
+    height: 25px;
+    border-radius: 6px;
+    border: 2px solid #30343F;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #1F1F1F;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+#nombreProducto, #sku, #precio, #stock, #descuento {
+    border: 0;
+    border-bottom: 2px solid #FF3333;
+    
+}
+
+#sku, #precio {
+    width: 110px;
+}
+
+#stock, #descuento {
+    width: 40px;
+    text-align: center;
+}
+
+#cuotas {
+    width: 250px;
+    height: 25px;
+    border-radius: 6px;
+    border: 2px solid #30343F;
+}
+
+.number-inputs {
+    display: flex;
+    text-align:start;
+    
+    background-color: aquamarine;
+}
+
+.number-inputs label {
+    font-weight: 400;
+}
+
+.botonera {
+    display: flex;
+    gap: 25px;
+}
+
+button {
+    cursor: pointer;
+    width: 175px;
+    padding: 10px 0;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #FF3333;
+
+
+}
