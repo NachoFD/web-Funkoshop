@@ -56,8 +56,8 @@
 
             <textarea name="descripcion" id="descripcion" cols="9" rows="10" placeholder="Descripción del producto"></textarea>
 
-            <div class="number-inputs">
-                <section>
+            <div>
+                <section class="number-inputs number-inputs_1">
                     <label for="sku">SKU:
                         <input type="text" id="sku" placeholder="SSK111AB001">
                     </label>
@@ -69,12 +69,12 @@
                     </label>
                 </section>
 
-                <section>
+                <section class="number-inputs">
                     <label for="descuento">Descuento:
                         <input type="text" id="descuento" placeholder="0%">
                     </label>
                     <label for="cuotas">Cuotas:
-                        <input list="cuotas" placeholder="3 cuotas sin interés">
+                        <input list="cuotas" class="cuotas" placeholder="3 cuotas sin interés">
                         <datalist id="cuotas">
                             <option value="1 cuotas sin interés"></option>
                             <option value="2 cuotas sin interés"></option>

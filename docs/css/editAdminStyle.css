@@ -1,0 +1,29 @@
+.img-cargadas {
+    display: flex;
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+.img-cargadas img {
+    border-bottom: 2px solid #FF3333;
+}
+
+figcaption {
+    font-size: 16px;
+}
+
+select {
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid #30343F;
+    padding: 6px;
+    font-size: 18px;
+}
+
+#categoria-edit, #licencia-edit {
+    width: 200px;
+}

@@ -1,7 +1,9 @@
 
 h1 {
-    margin-top: 10px;
+    margin-top: 0;
+    margin-bottom: 50px;
     letter-spacing: 1.68px;
+    text-transform: uppercase;
 }
 
 form {
@@ -29,7 +31,7 @@ input {
 
 .new-item_filtros input {
     width: 200px;
-    height: 25px;
+    padding: 6px;
     border-radius: 6px;
     border: 2px solid #30343F;
 }
@@ -38,7 +40,7 @@ textarea {
     width: 100%;
     border-radius: 4px;
     border: 1px solid #1F1F1F;
-    padding: 0;
+    padding: 6px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
@@ -47,6 +49,10 @@ textarea {
     border: 0;
     border-bottom: 2px solid #FF3333;
     
+}
+
+#nombreProducto {
+    width: 250px;
 }
 
 #sku, #precio {
@@ -58,22 +64,25 @@ textarea {
     text-align: center;
 }
 
-#cuotas {
-    width: 250px;
-    height: 25px;
+.cuotas {
+    width: 300px;
+    padding: 6px;
     border-radius: 6px;
     border: 2px solid #30343F;
 }
 
-.number-inputs {
-    display: flex;
-    text-align:start;
-    
-    background-color: aquamarine;
+.number-inputs label {
+    font-weight: 400;    
 }
 
-.number-inputs label {
-    font-weight: 400;
+.number-inputs {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-inputs_1 {
+    margin-bottom: 40px;
 }
 
 .botonera {

@@ -57,7 +57,7 @@ body {
     background-color: #30343F;
     height: 300px;
     width: 100%;
-    margin-top: 170px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -82,7 +82,6 @@ body {
 .contenedor-opciones-footer{
     display: grid;
     text-align: justify;
-    margin-left: 100px;
 }
 
 .footer-link{
