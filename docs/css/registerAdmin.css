@@ -1,0 +1,75 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1.68px;
+}
+
+p {
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.28px;
+}
+
+h1, p, .submit{
+    margin: 8px auto;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    grid-gap: 16px;
+}
+
+label {
+    float: left;
+    grid-column: 1 / 2;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+
+input {
+    grid-column: 2 / 2;
+    border: 0;
+    border-bottom: 2px solid #FF3333;;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn-submit {
+    background: #F33;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border:0;
+    cursor: pointer;
+}
+
+.submit label {
+    font-size: 16px;
+}
+
+.terminosYCondiciones {
+    display: flex;
+    gap: 5px;
+    font-weight: 400;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funkoshop | Register</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/homeStyle.css">
+    <link rel="stylesheet" href="../css/adminStyle.css">
+    <link rel="stylesheet" href="../css/registerAdmin.css">
+</head>
+<header class="header-nav">
+    <nav class="nav container">
+            
+        <a href="home.html">
+            <img class="logo" src="../img/branding/logo_light_horizontal.svg" alt="funkoshop">
+        </a>
+
+        <div class="nav-menu" style="margin-left: auto;">
+            <a href="./shop.html" class="nav-menu-link nav-link">VER TIENDA</a>
+            <a href="./admin.html" class="nav-menu-link nav-link">ADMIN</a>
+            <a href="#" class="nav-menu-link nav-link">SALIR</a>
+        </div>
+    </nav>
+</header>
+<body>
+    <main class="main-admin container">
+        <h1>Crea tu cuenta</h1>
+
+        <p>Completa el formulario para ser parte del mundo de los Funkos</p>
+
+        <form>
+            <label for="nombre" class="nombre">Nombre:</label>
+            <input id="nombre" type="text" placeholder="John" required>
+
+            <label for="apellido" class="apellido">Apellido:</label>
+            <input id="apellido" type="text" placeholder="Doe" required>
+
+            <label for="email" class="email">Email:</label>
+            <input id="email" type="email" placeholder="johndoe@correo.com" required>
+
+            <label for="contraseña" class="contraseña">Contraseña:</label>
+            <input id="contraseña" type="password" placeholder="• • • • • • • • •" required>
+
+            <label for="repitaContraseña" class="repita-contraseña">Repita contraseña:</label>
+            <input id="repitaContraseña" type="password" placeholder="• • • • • • • • •" required>
+        </form>
+
+        <section class="submit">
+            <button class="btn-submit" type="submit" value="Submit">Registrar</button>
+
+            <div class="terminosYCondiciones">
+                <input id="terminosCondiciones" type="checkbox" required>
+                <label for="terminosCondiciones" class="terminos-Condiciones">Acepto <a href="">Términos y condiciones</a></label>
+            </div>       
+        </section>
+
+    </main>
+</body>
+<footer class="footer">
+    <div class="contenedor-footer container">
+        
+        <div class="contenedor-opciones-footer">
+            <a href="./shop.html" class="footer-link">SHOP</a>
+            <a href="./login.html" class="footer-link">INGRESAR</a>
+            <a href="./contacto.html" class="footer-link">CONTACTO</a>
+        </div>
+
+        <img src="../img/branding/isotype.svg" alt="logo">
+    </div>
+    <p>All rights reserved 2023 - Funkoshop &copy;</p> 
+</footer>
+</html>

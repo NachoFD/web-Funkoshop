@@ -48,7 +48,6 @@ textarea {
 #nombreProducto, #sku, #precio, #stock, #descuento {
     border: 0;
     border-bottom: 2px solid #FF3333;
-    
 }
 
 #nombreProducto {
