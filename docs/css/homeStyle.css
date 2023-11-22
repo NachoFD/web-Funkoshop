@@ -88,11 +88,10 @@ body{
 }
 
 .contenedor-funko button{
-    padding: 12px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding: 12px 22px;
     border-radius: 20px;
     background-color: rgb(36, 36, 36);
+    font-size: 20px;
     color: white;
     border: none;
     margin-top: -20px;
